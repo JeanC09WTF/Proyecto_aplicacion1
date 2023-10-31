@@ -1,0 +1,20 @@
+{
+    "data": [
+        {
+            "name": "Coclé",
+            "image": "cocle.jpg"
+        },
+        {
+            "name": "Óla",
+            "image": "ola.jpg"
+        },
+        {
+            "name": "Parque de Penonomé",
+            "image": "parke.jpg"
+        },
+        {
+            "name": "El Valle",
+            "image": "valle.jpg"
+        }
+    ]
+}

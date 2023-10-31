@@ -1,0 +1,23 @@
+{
+    "data":[
+        {
+            "name": "Han",
+            "state": "Look, kid...",
+            "description":"Ive got enough on my plate as it is, and I...",
+            "image":"avatar-han.png"
+        },
+        {
+            "name": "Luke",
+            "state": "Your thoughts betray you",
+            "description": "I feel the good in you, the conflict...",
+            "image": "avatar-luke.png"
+        },
+        {
+            "name": "Leia",
+            "state": "Youre My Only Hope",
+            "description": "Ive placed information vital to the survival...",
+            "image": "avatar-leia.png"
+        }
+
+    ]
+}

@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="mycolor">
+    <ion-title>customers</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+<ion-list *ngIf="permission">
+
+  <ion-item *ngFor="let user of users">
+    <ion-avatar slot="start">
+      <img src="../../assets/customers-img/{{user.image}}" />
+    </ion-avatar>
+    <ion-label>
+      <h2 class="colorblue">{{user.name}}</h2>
+      <h3>I'm a big deal</h3>
+      <p>{{user.description}}</p>
+    </ion-label>
+    
+  </ion-item>
+</ion-list>
+<ion-label *ngIf="!permission">No tienes permisos para ver los clientes</ion-label>
+
+
+ <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">customers</ion-title>
+    </ion-toolbar>
+  </ion-header>
+</ion-content>
