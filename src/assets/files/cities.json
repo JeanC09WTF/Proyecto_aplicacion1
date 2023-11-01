@@ -15,6 +15,18 @@
         {
             "name": "El Valle",
             "image": "valle.jpg"
+        },
+        {
+            "name": "Bajo Grande",
+            "image": "bajogrande.jpg"
+        },
+        {
+            "name": "Chiguirí",
+            "image": "chiguiri.jpg"
+        },
+        {
+            "name": "Toabré",
+            "image": "toabre.jpg"
         }
     ]
 }
