@@ -1,32 +1,46 @@
 {
     "data": [
         {
+            "id": 1,
             "name": "Coclé",
-            "image": "cocle.jpg"
+            "image": "cocle.jpg",
+            "descripcion": "Coclé proporciona productos a gran parte del país de Panamá y es famoso por la producción de tomates, azúcar y sal. Coclé ofrece una serie de atractivos, en lo que puede considerarse como una de las zonas turísticas más importantes de la República de Panamá."
         },
         {
+            "id": 2,
             "name": "Óla",
-            "image": "ola.jpg"
+            "image": "ola.jpg",
+            "descripcion": "Entre los lugares más conocidos de Olá están: los Chorros de Olá, el Cerro Picacho y la Cascada Las Mesitas."
         },
         {
+            "id": 3,
             "name": "Parque de Penonomé",
-            "image": "parke.jpg"
+            "image": "parke.jpg",
+            "descripcion": "Todas las leyendas sobre el nombre de Penonomé giran en torno a un cacique indígena llamado Nomé. Hay tres versiones: la primera es la pena de Nome al morir la princesa a quien amaba."
         },
         {
+            "id": 4,
             "name": "El Valle",
-            "image": "valle.jpg"
+            "image": "valle.jpg",
+            "descripcion": "El Valle de Antón, Panamá, ofrece una variedad de actividades familiares. Puedes explorar el mercado artesanal, visitar el Zoológico El Níspero, disfrutar de las aguas termales, caminar hasta la cascada Chorro El Macho, explorar el Sendero de los Quetzales y visitar el parque temático ecológico Nisperito."
         },
         {
+            "id": 5,
             "name": "Bajo Grande",
-            "image": "bajogrande.jpg"
+            "image": "bajogrande.jpg",
+            "descripcion": "Bajo grande es un hermoso pueblo ubicado en el corregimiento de Las Lomas, Distrito de La Pintada, Provincia de Coclé. En Bajo Grande encontrarás bellos lugares, podrás disfrutar del Río Grande que pasa por todo el pueblo de Bajo Grande."
         },
         {
+            "id": 6,
             "name": "Chiguirí",
-            "image": "chiguiri.jpg"
+            "image": "chiguiri.jpg",
+            "descripcion": "Esta conformado por elevaciones como cerros, montañas y colinas este maravilloso lugar destacando su naturaleza, cubiertas con grandes extensiones de bosque frondosos conformados por árboles nativos de la región Coclesana como lo son: el espavé, nance, María, cañafístula."
         },
         {
+            "id": 7,
             "name": "Toabré",
-            "image": "toabre.jpg"
+            "image": "toabre.jpg",
+            "descripcion": "En esta localidad la comunicada se dedica a la siembra de arroz, cultivo de tomate, melón y sandía para la venta; también se registran ganaderos."
         }
     ]
 }

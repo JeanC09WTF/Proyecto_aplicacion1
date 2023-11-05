@@ -1,22 +1,22 @@
 {
     "data":[
         {
-            "name": "Han",
-            "state": "Look, kid...",
-            "description":"Ive got enough on my plate as it is, and I...",
-            "image":"avatar-han.png"
+            "name": "Jean Gutierrez",
+            "state": "Un chico amigable",
+            "description":"El único modo de hacer un gran trabajo es amar lo que haces.",
+            "image":"jean.PNG"
         },
         {
-            "name": "Luke",
-            "state": "Your thoughts betray you",
-            "description": "I feel the good in you, the conflict...",
-            "image": "avatar-luke.png"
+            "name": "Rolando Tatis",
+            "state": "Un chico macaco",
+            "description": "Cuanto más duramente trabajo, más suerte tengo.",
+            "image": "rolando.PNG"
         },
         {
-            "name": "Leia",
-            "state": "Youre My Only Hope",
-            "description": "Ive placed information vital to the survival...",
-            "image": "avatar-leia.png"
+            "name": "Diego Vergara",
+            "state": "Los Billetes son lo mio",
+            "description": "Escoge un trabajo que te guste, y nunca tendrás que trabajar ni un solo día de tu vida.",
+            "image": "diego.PNG"
         }
 
     ]
