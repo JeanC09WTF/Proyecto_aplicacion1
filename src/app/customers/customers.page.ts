@@ -51,6 +51,17 @@ export class CustomersPage implements OnInit {
       });
     }
   }
+  //nuevo
+  doRefresh(event: any) {
+    this.getusers();
+    console.log('Begin async operation');
+
+    
+    setTimeout(() => {
+      console.log('Async operation has ended');
+      event.target.complete();
+    }, 2000);
+  }
 
 
 }

@@ -11,12 +11,17 @@ import { AlertController, ToastController } from '@ionic/angular';
   styleUrls: ['./cities.page.scss'],
 })
 export class CitiesPage implements OnInit {
+
+  token = localStorage.getItem("token");
   
   cities: any = []; 
 
     constructor(private router: Router, private http: HttpClient, public toastController: ToastController, public alertController: AlertController) { }
 
   ngOnInit() {
+    console.log("token: ", this.token)
+    //localStorage.removeItem('token');
+    localStorage.clear();
     this.getCities().subscribe(res => {
       console.log("Res", res)
       this.cities = res;
