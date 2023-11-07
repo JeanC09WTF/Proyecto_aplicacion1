@@ -1,4 +1,8 @@
 import { Component } from '@angular/core';
+import { Plugins } from '@capacitor/core';
+const { Share } = Plugins;
+
+
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
@@ -12,4 +16,13 @@ export class AppComponent {
     { title: 'Login', url: '/login', icon: 'log-in' },
   ];
   constructor() {}
+
+  //nuevo
+  shareApp(){
+    Share['share'] ({
+      title: 'Has visto la nueva app X!',
+      text: 'Descarga gratis la nueva app de X y pruebala!',
+      url: 'http://ionicframework.com/',
+    });
+  }
 }
