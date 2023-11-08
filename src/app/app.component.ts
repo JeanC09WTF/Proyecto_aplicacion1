@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 import { Plugins } from '@capacitor/core';
 const { Share } = Plugins;
 
-
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
@@ -15,14 +14,25 @@ export class AppComponent {
     { title: 'Cities', url: '/cities', icon: 'location' },
     { title: 'Login', url: '/login', icon: 'log-in' },
   ];
-  constructor() {}
 
-  //nuevo
-  shareApp(){
-    Share['share'] ({
+  constructor() { }
+
+  
+
+
+
+
+  shareApp() {
+    Share['share']({
       title: 'Has visto la nueva app X!',
-      text: 'Descarga gratis la nueva app de X y pruebala!',
+      text: 'Descarga gratis la nueva app de X y pruébala!',
       url: 'http://ionicframework.com/',
-    });
+    })
+      .then(() => {
+        console.log('Compartido con éxito');
+      })
+      .catch((error: any) => { // Especificamos 'any' como tipo para 'error'
+        console.error('Error al compartir: ' + error);
+      });
   }
 }
