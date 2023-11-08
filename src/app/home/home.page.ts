@@ -15,7 +15,7 @@ export class HomePage implements OnInit {
   ngOnInit() {
   }
 
-  scan(){
+  scan() {
     this.barcodeScanner.scan().then(barcodeData => {
       this.code = barcodeData.text;
       console.log('Barcode data', this.code);
