@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, getPlatform } from '@angular/core';
 import { Plugins } from '@capacitor/core';
 const { Share } = Plugins;
+
 
 
 @Component({
@@ -15,6 +16,9 @@ export class AppComponent {
     { title: 'Cities', url: '/cities', icon: 'location' },
     { title: 'Login', url: '/login', icon: 'log-in' },
   ];
+  splashScreen: any;
+  statusBar: any;
+  platform: any;
   constructor() {}
 
   //nuevo
@@ -24,5 +28,14 @@ export class AppComponent {
       text: 'Descarga gratis la nueva app de X y pruebala!',
       url: 'http://ionicframework.com/',
     });
+  }
+
+  initializeApp(){
+    this.platform.ready().then(() => {
+      this.statusBar.styleDefault();
+      this.splashScreen.hide();
+    });
+    console.log("Plataforma: ", getPlatform());
+
   }
 }
